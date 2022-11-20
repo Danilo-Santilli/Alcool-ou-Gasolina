@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etanol ou gasolina</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <form id="formulario">
+      <label for="etanol">Valor do preço do <strong>etanol</strong>, sem vírgula (ex: 3,99 -> 399):</label>
+      <input type="number" name="etanol" id="etanol-price">
+
+      <label for="gasolina">Valor do preço da <strong>gasolina</strong>, sem vírgula (ex: 3,99 -> 399):</label>
+      <input type="number" name="gasolina" id="gasolina-price">
+
+      <button type="submit" id="botao">Calcular</button>
+    </form>
+
+    <div id="resultado"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
